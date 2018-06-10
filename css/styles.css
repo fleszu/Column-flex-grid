@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*------------HEADER---------------*/
+header {
+  background-color: #302b27;
+  color: #baa256;
+  padding: 1rem 2%;
+  /*--------HEADER SOCIAL ICONS-----------*/ }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 300; }
+  header h2 {
+    font-size: 1.12rem;
+    font-weight: 300; }
+  header ul.social li {
+    list-style-type: none;
+    float: left;
+    width: 25%; }
+  header ul.social li a {
+    display: block;
+    margin: 0 auto;
+    background-image: url(../images/social.png);
+    height: 3rem;
+    width: 3rem; }
+  header ul.social .twitter a {
+    background-position: -58px -62px; }
+  header ul.social .youtube a {
+    background-position: -345px -58px; }
+  header ul.social .facebook a {
+    background-position: -45px -45px; }
+  header ul.social .googleplus a {
+    background-position: -180px -45px; }
+
+/*-------------MAIN--------------*/
+main {
+  max-width: 60rem;
+  min-height: 20rem; }
+  main h1 {
+    font-size: 2rem;
+    margin: 1.5rem 0 .5rem 0;
+    color: #302b27; }
+  main .plum {
+    color: plum;
+    font-size: 8rem; }
+  main ul li {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/spirit.png);
+    background-position: 0 0; }
+  main ul li a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    padding: .5rem 0;
+    color: #302b27;
+    text-decoration: none;
+    transition: background .75s ease, color .75s ease; }
+  main ul li.active a {
+    background-color: #9d8740; }
+  main ul li a:hover {
+    color: #baa256;
+    background-color: #302b27, 10%; }
+  main ul li.blue {
+    background-position: 150px -100px; }
+  main ul li.bee {
+    background-position: -50px -50px; }
+  main ul li.one {
+    background-position: -100px -100px; }
+  main ul li.one:hover {
+    background-position: -100px -150px; }
+
+@media only screen and (min-width: 35rem) {
+  /*----------HEADER SOCIAL ICONS------------*/
+  /*------------MAIN----------*/
+  main .purple {
+    color: purple; } }
+@media only screen and (min-width: 60rem) {
+  /*------------NAV-------------*/
+  nav ul {
+    margin-left: 2%;
+    border-left: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li {
+    width: auto; }
+  nav ul li:last-child {
+    border-right: 1px solid rgba(0, 0, 0, 0.3); }
+  nav ul li a {
+    padding: .5rem 1rem; }
+
+  /*-----------MAIN------------*/
+  main {
+    margin: auto; }
+
+  .orange {
+    color: orange; } }
+
+/*# sourceMappingURL=styles.css.map */

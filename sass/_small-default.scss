@@ -1,0 +1,89 @@
+/*------------HEADER---------------*/
+
+header {
+	background-color: $primaryColor;
+	color: $secondaryColor;
+	padding: 1rem $gutter;
+	h1 {
+		font-size: 2rem;
+		font-weight: $normalWeight;
+	}
+	h2 {
+		font-size: 1.12rem;
+		font-weight: $normalWeight;
+	} //end h2 rules
+	/*--------HEADER SOCIAL ICONS-----------*/
+	ul.social li {
+		list-style-type: none;
+		float: left;
+		width: 25%;
+	}
+	ul.social li a {
+		display: block;
+		margin: 0 auto;
+		background-image: url(../images/social.png);
+		height: 3rem;
+		width: 3rem;
+	}
+	ul.social .twitter a {
+		background-position: -58px -62px;
+	}
+	ul.social .youtube a {
+		background-position: -345px -58px;
+	}
+	ul.social .facebook a {
+		background-position: -45px -45px;
+	}
+	ul.social .googleplus a {
+		background-position: -180px -45px;
+	}
+} //end header
+/*-------------MAIN--------------*/
+
+main {
+	max-width: 60rem;
+	min-height: 20rem;
+	h1 {
+		font-size: 2rem;
+		margin: 1.5rem 0 .5rem 0;
+		color: $primaryColor;
+	} //end h1
+	.plum {
+		color: plum;
+		font-size: 8rem;
+	}
+	ul li {
+		width: 50px;
+		height: 50px;
+		background-image: url(../images/spirit.png);
+		background-position: 0 0;
+	}
+	ul li a {
+		display: block;
+		text-align: center;
+		font-weight: $boldWeight;
+		padding: .5rem 0;
+		color: $primaryColor;
+		text-decoration: none;
+		transition: background .75s ease, color .75s ease;
+	}
+	ul li.active a {
+		background-color: darken($secondaryColor, 10%);
+	}
+	ul li a:hover {
+		color: $secondaryColor;
+		background-color: $primaryColor, 10%;
+	} //end ul 
+	ul li.blue {
+		background-position: 150px -100px;
+	}
+	ul li.bee {
+		background-position: -50px -50px;
+	}
+	ul li.one {
+		background-position: -100px -100px;
+	}
+	ul li.one:hover {
+		background-position: -100px -150px;
+	}
+}
