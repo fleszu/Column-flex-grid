@@ -6,43 +6,67 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Columns, Flexbox, Grids</title>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,700|Parisienne">
 </head>
-<header class="clearfix">
-	<h1>World News</h1>
-	<h2>Stories the Move You!</h2>
-	<ul class="social">
-		<li class="vimeo"><a href="#"></a></li>
-		<li class="google"><a href="#"></a></li>
-		<li class="twitter"><a href="#"></a></li>
-		<li class="youtube"><a href="#"></a></li>
-	</ul>
-</header>
-<!--NAV STARTS HERE-->
-<nav>
-	<ul class="clearfix">
-		<li class="active"><a href="news.html">Breaking</a></li>
-		<li><a href="politics.html">Politics</a></li>
-		<li><a href="business.html">Business</a></li>
-		<li><a href="science.html">Science</a></li>
-	</ul>
-</nav>
-<!--MAIN STARTS HERE-->
-<main class="clearfix">
-	<h1>Breaking News</h1>
-	<div class="plum purple orange">Hello</div>
-	<ul>
-		<li class="blue"></li>
-		<li class="bee"></li>
-		<li class="one"></li>
-	</ul>
-</main>
-<!--FOOTER STARTS HERE-->
-<footer>
-	<p>&copy;World News</p>
-</footer>
 
 <body>
+	<header class="clearfix">
+		<h1>World News</h1>
+		<h2>Stories the Move You!</h2>
+		<ul class="social">
+			<li class="vimeo"><a href="#"></a></li>
+			<li class="google"><a href="#"></a></li>
+			<li class="twitter"><a href="#"></a></li>
+			<li class="youtube"><a href="#"></a></li>
+		</ul>
+	</header>
+	<!--NAV STARTS HERE-->
+	<nav>
+		<ul class="clearfix">
+			<li class="active"><a href="news.html">Breaking</a></li>
+			<li><a href="politics.html">Politics</a></li>
+			<li><a href="business.html">Business</a></li>
+			<li><a href="science.html">Science</a></li>
+		</ul>
+	</nav>
+	<!--MAIN STARTS HERE-->
+	<main class="clearfix">
+
+		<div class="row">
+			<div class="column">
+				<h1>Breaking News</h1>
+			</div>
+			<!--	end column -->
+		</div>
+		<!-- end row -->
+		<div class="row">
+			<div class="column small-12 medium-12 large-6">
+				<h2>News Item 1</h2>
+				<figure><img src="images/social.png" alt=""></figure>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit soluta modi omnis architecto magnam perspiciatis doloribus vitae fugit consequuntur voluptatem! Doloribus dolores, hic minima cupiditate quis, dolore atque porro tempore ullam odio ipsa quam quaerat.</p>
+			</div>
+			<!--	end column -->
+			<div class="column small-12 medium-6 large-3">
+				<h2>News Item 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus autem inventore minima laboriosam reprehenderit nobis recusandae, repudiandae error dolores, voluptatibus nihil alias officiis est ipsum rerum sequi consectetur accusantium adipisci eum quod perferendis unde cumque impedit. Explicabo.</p>
+			</div>
+			<!--	end column	-->
+			<div class="column small-12 medium-6 large-3">
+				<h2>News Item 3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis delectus accusantium dicta excepturi ab modi quod facere enim, molestiae deserunt id praesentium ratione totam quaerat, saepe commodi possimus consectetur.</p>
+			</div>
+			<!-- end column -->
+
+		</div>
+		<!-- end row -->
+	</main>
+	<!--FOOTER STARTS HERE-->
+	<footer>
+		<p>&copy;World News</p>
+	</footer>
+
+
 
 </body>
 

@@ -1,18 +1,27 @@
 /*----------HEADER SOCIAL ICONS------------*/
 
 header {
-    
-        ul.social li {
-        width: auto;
-        margin: 0 .7rem;    
-    }
-}
 
-//end header
+	ul.social li {
+		width: auto;
+		margin: 0 .7rem;
+	}
+	ul {
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+	}
+} //end header
 /*------------MAIN----------*/
 
 main {
-	.purple {
-		color: purple;
-	} //end main
-}
+
+	/*---------COLUMN LAYOUT---------*/
+	@for $i from 1 through 12 {
+		$w: ($i / 12) * 100%;
+		.medium-#{$i} {
+			width: $w;
+			float: left;
+		}
+	}
+} //end end
