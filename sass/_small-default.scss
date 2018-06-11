@@ -12,30 +12,54 @@ header {
 		font-size: 1.12rem;
 		font-weight: $normalWeight;
 	} //end h2 rules
+    
 	/*--------HEADER SOCIAL ICONS-----------*/
-	ul.social li {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        
+    }
+    ul.social li {
 		list-style-type: none;
-		float: left;
-		width: 25%;
+		
 	}
 	ul.social li a {
 		display: block;
 		margin: 0 auto;
-		background-image: url(../images/social.png);
+		background-image: url(../images/media.png);
 		height: 3rem;
-		width: 3rem;
+		width: 3.2rem;
+        transition: background-image .5s ease;
+	}
+    ul.social li a:hover {
+		background-image: url(../images/media-.png);
+		transition: background-image .5s ease;
+        
+	}
+	ul.social .vimeo a {
+		background-position: -102px -46px;
+	}
+	ul.social .google a {
+		background-position: -53px .3px;
 	}
 	ul.social .twitter a {
-		background-position: -58px -62px;
+		background-position: -152px .3px;
 	}
 	ul.social .youtube a {
-		background-position: -345px -58px;
+		background-position: -105px .3px;
 	}
-	ul.social .facebook a {
-		background-position: -45px -45px;
+    ul.social .vimeo a:hover {
+		background-position: -102px -46px;
 	}
-	ul.social .googleplus a {
-		background-position: -180px -45px;
+	ul.social .google a:hover {
+		background-position: -53px .3px;
+	}
+	ul.social .twitter a:hover {
+		background-position: -152px .3px;
+	}
+	ul.social .youtube a:hover {
+		background-position: -105px .3px;
 	}
 } //end header
 /*-------------MAIN--------------*/
@@ -53,9 +77,9 @@ main {
 		font-size: 8rem;
 	}
 	ul li {
-		width: 50px;
-		height: 50px;
-		background-image: url(../images/spirit.png);
+		width: 136px;
+		height: 136px;
+		background-image: url(../images/ob.jpg);
 		background-position: 0 0;
 	}
 	ul li a {
@@ -75,15 +99,17 @@ main {
 		background-color: $primaryColor, 10%;
 	} //end ul 
 	ul li.blue {
-		background-position: 150px -100px;
+		background-position: 0 -136px;
+		
 	}
 	ul li.bee {
-		background-position: -50px -50px;
+		background-position: -136px -136px;
 	}
 	ul li.one {
-		background-position: -100px -100px;
+		background-position: -136px 0;
 	}
-	ul li.one:hover {
-		background-position: -100px -150px;
-	}
+    ul li.one:hover {
+        background-position: 0 0;
+    }
+	
 }
