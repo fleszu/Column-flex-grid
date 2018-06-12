@@ -12,6 +12,13 @@ header {
 		flex-wrap: wrap;
 	}
 } //end header
+
+/*----------NAV----------*/
+nav {
+    ul {
+        justify-content: flex-start;
+    }
+}
 /*------------MAIN----------*/
 
 main {
